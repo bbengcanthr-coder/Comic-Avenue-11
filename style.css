@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.event-container {
+    width: 800px;
+    background: white;
+    border: 5px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff85c0;
+    font-size: 3rem;
+    text-shadow: 2px 2px #5fc9f8;
+}
+
+.floor-plan {
+    border: 3px solid #333;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #e8f4f8;
+}
+
+.booth-grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.column {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.column h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    background: #eee;
+}
+
+.slots {
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.event-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px dashed #ccc;
+    padding-top: 20px;
+}
+
+.rules {
+    text-align: left;
+    font-weight: bold;
+    color: #d00;
+}
+
+.ticket {
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
